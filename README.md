@@ -1,6 +1,6 @@
 # BITCollege_FT
 
-**BITCollege_FT** is a comprehensive web application built with ASP.NET, designed to streamline and manage various college-related activities effectively. This project offers a robust platform for handling student management, course enrollment, and tuition rate adjustments while ensuring secure user authentication and authorization.
+**BITCollege_FT** is a web application built with ASP.NET, designed to streamline and manage various college-related activities effectively. This project offers a robust platform for handling student management, course enrollment, and tuition rate adjustments while ensuring secure user authentication and authorization.
 
 ---
 
@@ -28,21 +28,7 @@ The application follows a clean and modular structure, adhering to the ASP.NET M
 - **`Models`**: Defines the core data structures and entities used throughout the application.
 - **`Scripts`**: JavaScript files for enhancing interactivity and functionality.
 - **`Views`**: Razor views implementing the user interface for the MVC pattern.
-
-### 🔑 **Core Files**
 - **`Global.asax & Global.asax.cs`**: Entry point for application startup logic.
 - **`Web.config`**: Central configuration file containing app settings, connection strings, and environment-specific configurations.
 
 ---
-
-## 🛠️ Getting Started
-
-### Prerequisites
-- **Visual Studio**: IDE for ASP.NET development.
-- **SQL Server**: For managing the application database.
-- **.NET Framework**: Ensure the required version is installed.
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/BITCollege_FT.git
