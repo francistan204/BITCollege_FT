@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BITCollege_FT", "BITCollege_FT\BITCollege_FT.csproj", "{B8DCE328-74FE-4F35-9B8C-DD7972806BB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "BITCollege_FT\Utility\Utility.csproj", "{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuitionRateAdjustmentTest", "TuitionRateAdjustmentTest\TuitionRateAdjustmentTest.csproj", "{9CA88345-8897-4D1E-89BA-44E0216B388D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BITCollegeService", "BITCollegeService\BITCollegeService.csproj", "{3DA296C3-E18B-4BFD-9F2C-A916B685EEC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaskedLabel", "..\..\..\OneDrive\ADEV 3008\Assignment 06 Files\MaskedLabel\MaskedLabel.csproj", "{049F1B57-22DE-42E2-A648-B64B82BF6DF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BITCollegeWindows", "..\..\..\OneDrive\ADEV 3008\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\BITCollegeWindows.csproj", "{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3DA296C3-E18B-4BFD-9F2C-A916B685EEC6} = {3DA296C3-E18B-4BFD-9F2C-A916B685EEC6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8DCE328-74FE-4F35-9B8C-DD7972806BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DCE328-74FE-4F35-9B8C-DD7972806BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DCE328-74FE-4F35-9B8C-DD7972806BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DCE328-74FE-4F35-9B8C-DD7972806BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA88345-8897-4D1E-89BA-44E0216B388D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA88345-8897-4D1E-89BA-44E0216B388D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA88345-8897-4D1E-89BA-44E0216B388D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA88345-8897-4D1E-89BA-44E0216B388D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA296C3-E18B-4BFD-9F2C-A916B685EEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA296C3-E18B-4BFD-9F2C-A916B685EEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA296C3-E18B-4BFD-9F2C-A916B685EEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA296C3-E18B-4BFD-9F2C-A916B685EEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{049F1B57-22DE-42E2-A648-B64B82BF6DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049F1B57-22DE-42E2-A648-B64B82BF6DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049F1B57-22DE-42E2-A648-B64B82BF6DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049F1B57-22DE-42E2-A648-B64B82BF6DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A2E074-9CE7-48F6-B47B-0B55BF8D13C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {675F16E6-6C1B-4B61-89FC-8E425FB48D2F}
+	EndGlobalSection
+EndGlobal
