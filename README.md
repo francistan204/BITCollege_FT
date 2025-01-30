@@ -18,17 +18,4 @@
 
 The application follows a clean and modular structure, adhering to the ASP.NET MVC framework. Here's an overview of the main components:
 
-### 📂 **Directories**
-- **`App_Data`**: Database files and other data-related assets.
-- **`App_Start`**: Application configuration settings, such as routing and bundle configuration.
-- **`Content`**: Static assets like CSS files for styling the application.
-- **`Controllers`**: Handles HTTP requests and orchestrates the flow between views and models.
-- **`Data`**: Data access layer for interacting with the database.
-- **`Migrations`**: Code-first database migrations for schema evolution.
-- **`Models`**: Defines the core data structures and entities used throughout the application.
-- **`Scripts`**: JavaScript files for enhancing interactivity and functionality.
-- **`Views`**: Razor views implementing the user interface for the MVC pattern.
-- **`Global.asax & Global.asax.cs`**: Entry point for application startup logic.
-- **`Web.config`**: Central configuration file containing app settings, connection strings, and environment-specific configurations.
 
----
