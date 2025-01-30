@@ -14,8 +14,4 @@
 
 ---
 
-## 🏗️ Project Structure
-
-The application follows a clean and modular structure, adhering to the ASP.NET MVC framework. Here's an overview of the main components:
-
 
